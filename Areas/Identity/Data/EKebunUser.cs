@@ -18,5 +18,5 @@ namespace EKebun.Areas.Identity.Data
     }
 }
 // Add-Migration AddNewCustomData -context EKebunNewContext
-// Update-Database -context EKebunNewContext
+// /*Update-Database -context EKebunNewContext*/
 

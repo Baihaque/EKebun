@@ -15,7 +15,7 @@ namespace EKebun.Data
             : base(options)
         {
         }
-
+        //public DbSet <OwnerJob> OwnerJobs { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
