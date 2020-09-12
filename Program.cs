@@ -15,6 +15,7 @@ namespace EKebun
         public static void Main(string[] args)
         {
             var a = 1;
+            var c = a + 2;
             CreateWebHostBuilder(args).Build().Run();
         }
 
