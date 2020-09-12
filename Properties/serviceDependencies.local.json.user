@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "storage1": {
       "restored": true,
       "restoreTime": "2020-09-12T12:04:57.6501721Z"
@@ -7,6 +8,11 @@
     "secrets1": {
       "restored": true,
       "restoreTime": "2020-09-12T12:04:25.0944207Z"
+=======
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2020-09-12T09:02:03.5521712Z"
+>>>>>>> master
     },
     "mssql1": {
       "restored": true,

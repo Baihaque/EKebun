@@ -2,17 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EKebun.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+<<<<<<< HEAD
 using Microsoft.Extensions.Azure;
 using Azure.Storage.Queues;
 using Azure.Storage.Blobs;
 using Azure.Core.Extensions;
+=======
+using Microsoft.EntityFrameworkCore;
+>>>>>>> master
 
 namespace EKebun
 {
@@ -34,14 +40,20 @@ namespace EKebun
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+         
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+<<<<<<< HEAD
             services.AddAzureClients(builder =>
             {
                 builder.AddBlobServiceClient(Configuration["ConnectionStrings:tablestorageconnectionstring:blob"], preferMsi: true);
                 builder.AddQueueServiceClient(Configuration["ConnectionStrings:tablestorageconnectionstring:queue"], preferMsi: true);
             });
+=======
+
+            services.AddDbContext<EKebunContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("EKebunContext")));
+>>>>>>> master
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

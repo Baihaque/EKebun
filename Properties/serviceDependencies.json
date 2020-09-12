@@ -4,12 +4,18 @@
       "type": "mssql",
       "connectionId": "EKebunNewContextConnection"
     },
+<<<<<<< HEAD
     "secrets1": {
       "type": "secrets"
     },
     "storage1": {
       "type": "storage",
       "connectionId": "tablestorageconnectionstring"
+=======
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "EKebunContext"
+>>>>>>> master
     }
   }
 }

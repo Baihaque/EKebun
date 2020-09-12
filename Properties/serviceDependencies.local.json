@@ -4,6 +4,7 @@
       "type": "mssql.local",
       "connectionId": "EKebunNewContextConnection"
     },
+<<<<<<< HEAD
     "secrets1": {
       "type": "secrets.user"
     },
@@ -12,6 +13,11 @@
       "type": "storage.azure",
       "connectionId": "tablestorageconnectionstring",
       "secretStore": "LocalSecretsFile"
+=======
+    "mssql2": {
+      "type": "mssql.local",
+      "connectionId": "EKebunContext"
+>>>>>>> master
     }
   }
 }

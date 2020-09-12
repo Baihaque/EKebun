@@ -1,16 +1,21 @@
 {
   "iisSettings": {
+<<<<<<< HEAD
+    "windowsAuthentication": false, 
+=======
     "windowsAuthentication": false,
+>>>>>>> 0fbf227cf223034371bffa4ff1ca85177d2f40d1
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:58678",
-      "sslPort": 44335
+      "applicationUrl": "http://localhost:44335"
+     
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
+      "launchUrl": "http://localhost:44335",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "AZURE_USERNAME": "TP043721@mail.apu.edu.my"
@@ -19,6 +24,10 @@
     "EKebun": {
       "commandName": "Project",
       "launchBrowser": true,
+<<<<<<< HEAD
+      "applicationUrl": "http://localhost:44335",
+=======
+>>>>>>> 0fbf227cf223034371bffa4ff1ca85177d2f40d1
       "environmentVariables": {
 <<<<<<< HEAD
         "ASPNETCORE_ENVIRONMENT": "Development",
