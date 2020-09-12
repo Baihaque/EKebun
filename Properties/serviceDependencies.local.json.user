@@ -1,9 +1,26 @@
 {
   "dependencies": {
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2020-09-12T12:04:57.6501721Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2020-09-12T12:04:25.0944207Z"
+    },
     "mssql1": {
       "restored": true,
       "restoreTime": "2020-09-11T18:05:21.4701362Z"
     }
   },
-  "parameters": {}
+  "parameters": {
+    "storage1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "ekebuntablestorage"
+    },
+    "storage1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "c5cca485-b2df-490b-8580-9e9bb3867257"
+    }
+  }
 }
