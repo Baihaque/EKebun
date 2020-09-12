@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using EKebun.Models;
 using Microsoft.Extensions.DependencyInjection;
+using EKebun.Areas.Identity.Data;
 using EKebun.Data;
 
 namespace EKebun
@@ -24,10 +25,9 @@ namespace EKebun
                 var services = scope.ServiceProvider;
                 try
                 {
-                    var context =
-                   services.GetRequiredService<EKebunContext>();
+                    var context = services.GetRequiredService<EKebunNewContext>();
                     context.Database.Migrate();
-                    SeedData.Initialize(services);
+                   // SeedData.Initialize(services);
                 }
                 catch (Exception ex)
                 {
