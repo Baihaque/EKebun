@@ -4,9 +4,20 @@
       "type": "mssql.local",
       "connectionId": "EKebunNewContextConnection"
     },
+<<<<<<< HEAD
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/ekebuntablestorage",
+      "type": "storage.azure",
+      "connectionId": "tablestorageconnectionstring",
+      "secretStore": "LocalSecretsFile"
+=======
     "mssql2": {
       "type": "mssql.local",
       "connectionId": "EKebunContext"
+>>>>>>> master
     }
   }
 }
